@@ -11,9 +11,9 @@
   --max-width: 75vw;
 }
 
-body * {
+/* body * {
   outline: 1px solid blue ;
-}
+} */
 
 li {
   list-style: none;
@@ -233,6 +233,11 @@ hr {
   width: 6vw;
 }
 
+hr#separate {
+  width: 100%;
+  background-color: var(--color-primary);
+}
+
 #main-program-content {
   display: flex;
   gap: 20px;
@@ -401,7 +406,8 @@ li.speaker-info {
   display: flex;
   max-width: var(--max-width);
   margin: 0 auto;
-  padding-top: 3vw;
+  padding-top: 2vw;
+  padding-bottom: 3vw;
   padding-left: 3vw;
   gap: 3.5vw;
 }
@@ -419,12 +425,14 @@ li.speaker-info {
 /* About Section */
 
 #about-land-page {
-  background-image: url(../images/about-me-background.png);
-  height: 28vw;
-  background-size: cover;
-  background-position: center;
-  line-height: 2;
-  background-color: whitesmoke;
+  background-image: url(../images/about-me-background1.png);
+    background-size: cover;
+    background-position: center;
+    background-position-y: -6vw;
+    background-position-x: 2vw;
+    line-height: 2;
+    background-color: whitesmoke;
+    height: 43vw;
 }
 
 #about-land-page-container {
@@ -435,6 +443,11 @@ li.speaker-info {
 
 #about-land-page-container p {
   font-size: 1vw;
+}
+
+p#about-greetings {
+  font-size: 3vw;
+  color: var(--color-accent);
 }
 
 #about-land-page-title {
@@ -576,6 +589,10 @@ p.about-land-page-text {
   padding-top: 2vw;
   justify-content: space-between;
   background-color: #272a31;
+}
+
+#mobile-cc-logo-black {
+  display: none;
 }
 
 .second-cc-info {
