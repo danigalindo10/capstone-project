@@ -9,7 +9,7 @@
   --color-negative: #d3d3d3;
   --color-white: #fff;
   --ff-text: 'Lato', sans-serif;
-  --ff-title: 'Staatliches', sans-serif;
+  --ff-title: 'COCOGOOSE', sans-serif;
   --max-width: 75vw;
 }
 
@@ -335,11 +335,11 @@
   /* About Page Section */
 
   #about-land-page {
-    height: 120vw;
+    height: 130vw;
     background: url(../images/about-me-background1.png);
     background-repeat: no-repeat;
     background-color: #f5f5f6;
-    background-position-x: 48%;
+    background-position-x: 50%;
     background-size: cover;
   }
 
