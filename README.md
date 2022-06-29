@@ -81,6 +81,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
+[Cindy Shin](https://www.behance.net/adagio07), the original designer of this project.
 - Microverse
 - GitHub
 - Behance Template 
@@ -88,3 +89,5 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
+
+This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).

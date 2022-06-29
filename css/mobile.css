@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Staatliches&display=swap');
-
 @import url(./css/style.css);
 
 :root {
@@ -19,10 +18,9 @@
 
 /* Mobile Version */
 
-/*Land Page Section */
+/* Land Page Section */
 
 @media screen and (max-width: 768px) {
-
   #nav-bar-main {
     display: none;
   }
@@ -30,12 +28,13 @@
   header #menu {
     top: 3vw;
     padding-left: 5vw;
+
     /* color: var(--color-dark); */
     align-items: center;
     position: absolute;
     background-color: transparent;
   }
-  
+
   #land-page {
     background-image: url(../images/mobile_intro_bg.png);
     background-repeat: no-repeat;
@@ -47,7 +46,7 @@
 
   #land-page-container {
     max-width: 100%;
-    padding: 15vw 2.6vw 0 2.6vw;;
+    padding: 15vw 2.6vw 0 2.6vw;
   }
 
   #land-page-container-text {
@@ -175,7 +174,7 @@
     padding: 5vw;
   }
 
-  .fa-solid, 
+  .fa-solid,
   .fas {
     font-size: 8vw;
     padding-right: 1.6vw;
@@ -229,6 +228,10 @@
     line-height: 1.5;
   }
 
+  .second-cc-info img {
+    width: 12vw;
+  }
+
   .speaker-info ul li img {
     width: 100%;
   }
@@ -248,20 +251,13 @@
 
   header #top-bar {
     background-color: var(--color-white);
+    position: fixed;
+    width: 100%;
   }
 
   header #top-bar #menu {
     display: block;
     border: transparent;
-  }
-
-  header.mobile-menu #top-bar #menu img {
-    display: block;
-    display: none;
-  }
-
-  header.mobile-menu #top-bar #menu img {
-    display: none;
   }
 
   /* About Section 1 */
@@ -273,22 +269,29 @@
 
   /* End of about section 1 */
 
+  body.mobile-menu #homepage {
+    position: fixed;
+  }
+
+  header.mobile-menu #close img {
+    height: 11vw;
+    width: 11vw;
+  }
+
+  header.mobile-menu #top-bar #menu img {
+    display: block;
+    display: none;
+  }
+
   header.mobile-menu #close {
     color: var(--color-dark);
     align-items: center;
     position: absolute;
     top: 2vw;
     padding-left: 4.5vw;
-    left: 3.2;
     background-color: transparent;
     display: block;
-    font-size: 2.1;
     border-color: transparent;
-  }
-
-  header.mobile-menu #close img {
-    height: 11vw;
-    width: 11vw;
   }
 
   nav.mobile-menu #nav-bar-main {
@@ -313,7 +316,6 @@
 
   nav.mobile-menu .menu-links {
     flex-direction: column;
-    padding-top: 10.8;
   }
 
   nav.mobile-menu #nav-bar-main .menu-links {
@@ -348,7 +350,7 @@
     margin: 0 auto;
     height: 100%;
     padding: 15vw 2.6vw 0 2.6vw;
-    line-height: 11vw
+    line-height: 11vw;
   }
 
   p#about-greetings {
@@ -365,8 +367,8 @@
   }
 
   #about-land-page-paragraph {
-    font-size: 1em; 
-    max-width: 80%; 
+    font-size: 1em;
+    max-width: 80%;
   }
 
   p.about-land-page-text {
@@ -374,15 +376,11 @@
   }
 
   p#about-land-page-text-mobile {
-    font-size: 2.5vw;
-    max-width: 100%;
     align-self: center;
     text-align: center;
     background-color: unset;
     line-height: 1.5;
-    background-color: #fff;
     padding: 2vw 6vw;
-    max-width: 65vw;
     padding: 4vw;
     font-size: 3vw;
     max-width: 100%;
@@ -485,7 +483,7 @@
     padding-top: unset;
     background-color: #fff;
   }
-  
+
   #second-footer-logo {
     align-items: center;
   }
@@ -510,10 +508,6 @@
     color: var(--color-dark);
   }
 
-  .second-cc-info img {
-    width: 12vw;
-}
-
   #homepage #copyright {
     display: none;
   }
@@ -522,4 +516,3 @@
     display: none;
   }
 }
-

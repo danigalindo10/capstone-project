@@ -34,6 +34,19 @@ li {
   height: 60px;
 }
 
+.speaker-info ul {
+  display: flex;
+  max-width: 95%;
+}
+
+.sponsor-logos ul {
+  width: 100%;
+  gap: 3.9vw;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
 #top-bar ul {
   display: flex;
   max-width: var(--max-width);
@@ -105,23 +118,23 @@ nav {
   padding: 10px;
 }
 
-#nav-bar-links a:hover {
-  font-weight: bolder;
-  color: var(--color-accent);
-}
-
-#nav-bar-links a:active{
-  font-weight: bolder;
-  outline: 2px solid var(--color-accent);
-  background-color: var(--color-accent);
-  color: var(--color-white)
-}
-
 #nav-bar-main a {
   color: var(--color-primary);
   font-weight: 200;
   font-size: 1vw;
   text-decoration: none;
+}
+
+#nav-bar-links a:hover {
+  font-weight: bolder;
+  color: var(--color-accent);
+}
+
+#nav-bar-links a:active {
+  font-weight: bolder;
+  outline: 2px solid var(--color-accent);
+  background-color: var(--color-accent);
+  color: var(--color-white);
 }
 
 #nav-bar-main .menu-links {
@@ -200,7 +213,7 @@ h1 {
   font-size: 1.5vw;
   font-weight: 600;
   font-family: var(--ff-text);
-  color:var(--color-primary);
+  color: var(--color-primary);
 }
 
 /* Main Program Section */
@@ -219,7 +232,7 @@ h1 {
 }
 
 #main-program-title {
-  color:#fff;
+  color: #fff;
   font-size: 2vw;
   text-align: center;
   margin-bottom: 1vw;
@@ -277,7 +290,7 @@ hr#separate {
 }
 
 .main-program-activity p {
-  color:#fff;
+  color: #fff;
 }
 
 .main-program-activity:hover {
@@ -296,7 +309,7 @@ hr#separate {
 }
 
 #see-more-link:hover {
-  color: var(--color-accent)
+  color: var(--color-accent);
 }
 
 /* Speakers Section */
@@ -327,11 +340,6 @@ li.speaker-info {
   line-height: 1.5;
 }
 
-.speaker-info ul {
-  display: flex;
-  max-width: 95%;
-}
-
 /* Footer Section */
 
 .footer-logo img {
@@ -345,6 +353,14 @@ li.speaker-info {
 }
 
 /* End of Footer Section */
+
+.cc-info img {
+  width: 5vw;
+}
+
+.second-cc-info img {
+  width: 5vw;
+}
 
 .speaker-info ul li img {
   width: 8vw;
@@ -385,19 +401,11 @@ li.speaker-info {
 }
 
 #sponsors-title {
-  color:#d3d3d3;
+  color: #d3d3d3;
   font-family: var(--ff-text);
   font-size: 3vw;
   text-align: center;
   padding-top: 2vw;
-}
-
-.sponsor-logos ul {
-  width: 100%;
-  gap: 3.9vw;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
 }
 
 /* Footer Section */
@@ -418,21 +426,17 @@ li.speaker-info {
   margin-left: 3vw;
 }
 
-.cc-info img {
-  width: 5vw;
-}
-
 /* About Section */
 
 #about-land-page {
   background-image: url(../images/about-me-background1.png);
-    background-size: cover;
-    background-position: center;
-    background-position-y: -6vw;
-    background-position-x: 2vw;
-    line-height: 2;
-    background-color: whitesmoke;
-    height: 45vw;
+  background-size: cover;
+  background-position: center;
+  background-position-y: -6vw;
+  background-position-x: 2vw;
+  line-height: 2;
+  background-color: whitesmoke;
+  height: 45vw;
 }
 
 #about-land-page-container {
@@ -598,10 +602,6 @@ p.about-land-page-text {
 .second-cc-info {
   font-size: 1.5vw;
   color: var(--color-white);
-}
-
-.second-cc-info img {
-  width: 5vw;
 }
 
 #about-page #sponsors {
