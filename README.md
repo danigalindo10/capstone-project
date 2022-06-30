@@ -2,61 +2,57 @@
 
 # Project Name
 
-> Description the project.
+> Capstone Project:
+
+In this project I created an AI summit event page that hosts the world summit event where it's celebrated on Amsterdam. 
+This webpage that have a desktop version and a mobile version, contains a Home Page Section and an About Section, where you will be able to see the different topics what are going to be talked, the speakers of the event, the sponsors supporting this event, a past events sections where you will be able to see the lasts years when this event was celebrated and finally a reference to the creative commons licence which the page have.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- GitHub
+- Linters
+- HTML and CSS
+- JavaScript
 
-## Live Demo (if available)
+## Loom Video
 
-[Live Demo Link](https://livedemo.com)
+[Loom Video Link](https://www.loom.com/share/46f14db440e44d97bb9e651c2e3171d7)
+
+# Live Demo
+
+[Live Demo Link](https://danigalindo10.github.io/capstone-project/)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+To get a local copy up and running follow these simple example steps.
+
+### Install
+
+Write the `git@github.com:danigalindo10/capstone-project.git` command in your terminal to clone the repository on your local machine. 
+
+### Run tests
+
+Then open your favourite code editor (Optional VSCode), and use the live server extension to see your changes result.
 
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
 
-### Setup
+## Author
 
-### Install
+👤 **Daniel Galindo**
 
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@danigalindo10](https://github.com/danigalindo10)
+- Twitter: [@codedanig](https://twitter.com/codedanig)
+- LinkedIn: [Daniel Galindo](https://www.linkedin.com/in/daniel-galindo-31b922236/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/danigalindo10/capstone-project/issues).
 
 ## Show your support
 
@@ -64,10 +60,13 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+[Cindy Shin](https://www.behance.net/adagio07), the original designer of this project.
+- Microverse
+- GitHub
+- Behance Template 
 
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
+
+This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
