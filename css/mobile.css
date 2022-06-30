@@ -21,6 +21,7 @@
 /* Land Page Section */
 
 @media screen and (max-width: 768px) {
+  
   #nav-bar-main {
     display: none;
   }
@@ -253,6 +254,7 @@
     background-color: var(--color-white);
     position: fixed;
     width: 100%;
+    z-index: 99;
   }
 
   header #top-bar #menu {
