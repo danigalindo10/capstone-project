@@ -4,33 +4,8 @@
 
 > Capstone Project:
 
-In this project I added the following changes:
-
-Milestone 0 - project setup (0.5h)
-- Set up the repository and tools.
-
-Milestone 1 - content (1h)
-- Choose the topic for your website.
-- Choose images, text, icons, fonts.
-
-Milestone 2 - mobile first (5h)
-- Create the 2 pages for mobile.
-- Deploy the project.
-
-Milestone 3 - desktop version (5h)
-- Adapt the 2 pages to desktop.
-
-Milestone 4 - interactions (1.5h)
-- Implement the user interactions: link, mobile menu.
-- Deploy the project.
-
-Milestone 5 - dynamic page (5h)
-- Implement the section "Featured speakers" with dynamic HTML.
-- Deploy the project and check to make sure everything works as planned.
-
-Milestone 6 - documentation (1.5h)
-- Record a video describing your project.
-- Create a good README and pull request description.
+In this project I created an AI summit event page that hosts the world summit event where it's celebrated on Amsterdam. 
+This webpage that have a desktop version and a mobile version, contains a Home Page Section and an About Section, where you will be able to see the different topics what are going to be talked, the speakers of the event, the sponsors supporting this event, a past events sections where you will be able to see the lasts years when this event was celebrated and finally a reference to the creative commons licence which the page have.
 
 
 ## Built With
