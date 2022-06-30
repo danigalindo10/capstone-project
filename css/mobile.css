@@ -12,9 +12,9 @@
   --max-width: 75vw;
 }
 
-/* body * {
-  outline: 1px solid blue;
-} */
+.no-scroll {
+  overflow: hidden;
+}
 
 /* Mobile Version */
 
@@ -28,8 +28,6 @@
   header #menu {
     top: 3vw;
     padding-left: 5vw;
-
-    /* color: var(--color-dark); */
     align-items: center;
     position: absolute;
     background-color: transparent;

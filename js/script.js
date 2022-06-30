@@ -1,4 +1,3 @@
-/* eslint-disable no-plusplus */
 const speakerData = [
   {
     speaker_photo: 'images/speaker6.jpg',
@@ -38,6 +37,7 @@ const speakerData = [
   },
 ];
 
+// eslint-disable-next-line no-plusplus
 for (let i = 0; i < speakerData.length; i++) {
   const speakersInfo = `
   <li class="speaker-info">
