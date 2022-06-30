@@ -44,6 +44,10 @@ Milestone 6 - documentation (1.5h)
 
 [Loom Video Link](https://www.loom.com/share/46f14db440e44d97bb9e651c2e3171d7)
 
+# Live Demo
+
+[Live Demo Link](https://danigalindo10.github.io/capstone-project/)
+
 
 ## Getting Started
 
